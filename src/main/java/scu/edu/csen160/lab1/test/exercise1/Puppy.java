@@ -3,10 +3,9 @@ package scu.edu.csen160.lab1.test.exercise1;
 public class Puppy {
     private String name;
     private int age;
-
     public Puppy(){
-        this.name = "Name not given yet";
-        this.age = 1;
+        this.name = "N/A";
+        this.age = 0;
     }
 
     public Puppy(String name, int age){
@@ -15,6 +14,15 @@ public class Puppy {
     }
 
     public String getName() {
-        return this.name;
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public int getAgeDays() {
+
+        return age * 365;
     }
 }

@@ -3,6 +3,9 @@ package scu.edu.csen160.lab1.test.exercise4;
 import java.util.Scanner;
 
 public class ScannerDemo{
+    private int anInteger;
+    private float aFloat;
+    private double aDoubleNumber;
 	public static void main(String[] args) {
 		// Declarations
 		Scanner in = new Scanner(System.in);
@@ -28,4 +31,28 @@ public class ScannerDemo{
 		
 		in.close();
 	}
+
+    public void setAnInteger(int i) {
+        this.anInteger = i;
+    }
+
+    public void setaFloat(float v) {
+        this.aFloat = v;
+    }
+
+    public void setaDoubleNumber(double v) {
+        this.aDoubleNumber = v;
+    }
+
+    public int getAnInteger() {
+        return this.anInteger;
+    }
+
+    public float getaFloat() {
+        return this.aFloat;
+    }
+
+    public double getaDoubleNumber() {
+        return this.aDoubleNumber;
+    }
 }

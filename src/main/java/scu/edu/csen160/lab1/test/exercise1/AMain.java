@@ -5,8 +5,9 @@ public class AMain {
         // Edit the code, so that the age (in years) of the puppy is printed from main.
         // Edit the code, so that the age (in days) is printed from main.
         Puppy myPuppy = new Puppy("Fido",2);
-        myPuppy.getName();
 
-        System.out.printf("Hello and welcome!");
+        System.out.printf("\n" + myPuppy.getName() + " is " + myPuppy.getAge() + " years old.");
+        System.out.printf("\n" + myPuppy.getName() + " is " + myPuppy.getAgeDays() + " days old.");
+        System.out.printf("\nHello and welcome!");
     }
 }
